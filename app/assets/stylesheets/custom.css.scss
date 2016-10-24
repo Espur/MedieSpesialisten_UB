@@ -6,9 +6,7 @@
 body {
     
 // Gradient from http://uigradients.com/
-background: #24C6DC; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #24C6DC , #514A9D); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #24C6DC , #514A9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         
 }
 
@@ -18,3 +16,25 @@ background: linear-gradient(to left, #24C6DC , #514A9D); /* W3C, IE 10+/ Edge, F
     background-color: #fcf8e3;
     border-color: #faebcc;
 }
+
+.jumbotron {
+    height: 500px;
+    background-color: #650f0f;
+    margin-top: -20px;
+    color: white;
+    background: #cb2d3e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #cb2d3e , #ef473a); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #cb2d3e , #ef473a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+.jumbotron h1 {
+    font-size: 100px;
+    margin-top: 90px;
+}
+
+.container-fluid {
+    background-color: #F9F8F3;
+    margin-top: -20px;
+}
+
