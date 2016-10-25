@@ -53236,3 +53236,2723 @@ Started GET "/assets/bootstrap/carousel.js?body=1" for 83.243.132.199 at 2016-10
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 83.243.132.199 at 2016-10-24 18:30:01 +0000
+
+
+Started GET "/category" for 83.243.132.199 at 2016-10-24 20:44:50 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 184ms (Views: 177.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 83.243.132.199 at 2016-10-24 20:44:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 83.243.132.199 at 2016-10-24 20:44:50 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:50 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:50 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:50 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/home.css?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/users.css?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/users.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 83.243.132.199 at 2016-10-24 20:44:51 +0000
+
+
+Started GET "/" for 213.184.195.124 at 2016-10-25 09:54:49 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mPlan Load (0.3ms)[0m  SELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPlan Load (0.1ms)[0m  [1mSELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 405ms (Views: 385.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:50 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:51 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:51 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:51 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:51 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:51 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 09:54:51 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 09:54:51 +0000
+
+
+Started GET "/contacts/new" for 213.184.195.124 at 2016-10-25 09:55:23 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (31.8ms)
+Completed 200 OK in 166ms (Views: 161.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:24 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:25 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:25 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 09:55:25 +0000
+
+
+Started GET "/products" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 135ms (Views: 134.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 09:55:29 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 09:56:19 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 129ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 09:56:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:19 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 09:56:19 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 09:56:19 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 09:56:20 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 09:59:19 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 132ms (Views: 131.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 09:59:19 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 09:59:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:19 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:19 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:19 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 09:59:20 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 157ms (Views: 157.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:00:06 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:00:07 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:00:34 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:00:34 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:00:34 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:00:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:00:34 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 132ms (Views: 131.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:55 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:03:56 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:03:56 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:05:25 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 235ms (Views: 234.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:05:25 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:05:25 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:05:25 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:05:26 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:14:19 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2627ms (Views: 2626.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:14:23 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:14:23 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:15:29 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2252ms (Views: 2251.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:33 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:33 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:15:33 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:15:33 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:16:12 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2573ms (Views: 2572.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:15 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:16:16 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:16:16 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:18:40 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 129ms (Views: 128.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:18:40 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:18:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:40 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:40 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:18:40 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:18:40 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:18:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:18:41 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:20:24 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 236ms (Views: 235.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:25 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:26 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:26 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:26 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:20:26 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:20:26 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:23:41 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 132ms (Views: 132.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:23:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:41 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:23:42 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 136ms (Views: 135.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:24:21 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:22 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:24:22 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:24:22 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:26:23 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 131ms (Views: 130.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:26:23 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:26:23 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:26:23 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:26:24 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:26:36 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:26:36 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:26:36 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:26:37 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:26:37 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:27:33 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 218ms (Views: 218.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:27:33 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:27:33 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:27:34 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:27:54 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:27:54 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:27:54 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:27:55 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:27:55 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:28:53 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 129ms (Views: 128.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:28:54 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:28:55 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:29:36 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 203ms (Views: 202.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:29:36 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:29:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:36 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:36 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:36 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:36 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:36 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:36 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:36 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:36 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:29:37 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:30:12 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 155ms (Views: 154.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:30:12 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:30:12 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:30:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:12 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:12 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:12 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:12 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:12 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:30:13 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:30:34 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:30:34 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:30:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:30:34 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:30:34 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 10:32:27 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 137ms (Views: 137.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:28 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:32:29 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:32:29 +0000
+
+
+Started GET "/" for 213.184.195.124 at 2016-10-25 10:47:16 +0000
+Processing by PagesController#home as HTML
+  [1m[35mPlan Load (0.3ms)[0m  SELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPlan Load (0.1ms)[0m  [1mSELECT  "plans".* FROM "plans"  WHERE "plans"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 227ms (Views: 225.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:17 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 10:47:18 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 10:47:18 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 12:03:40 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/home/ubuntu/workspace/git@github.com:Espur/medieSpesialisten_ub.git/app/views/pages/category.html.erb:10: syntax error, unexpected tSTRING_DEND, expecting ')'
+...order: 0), controller: 'pages'} class: 'well' );@output_buff...
+...                               ^):
+  actionview (4.1.0) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.0) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.0) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.0) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (47.1ms)
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 12:04:56 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/home/ubuntu/workspace/git@github.com:Espur/medieSpesialisten_ub.git/app/views/pages/category.html.erb:10: syntax error, unexpected ')', expecting '}'
+..._tag("lgLogo.png"), {border: 0), controller: 'pages'} class:...
+...                               ^
+/home/ubuntu/workspace/git@github.com:Espur/medieSpesialisten_ub.git/app/views/pages/category.html.erb:10: syntax error, unexpected '}', expecting ')'
+...order: 0), controller: 'pages'} class: 'well' );@output_buff...
+...                               ^):
+  actionview (4.1.0) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.0) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.0) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.0) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.6ms)
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 12:05:18 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 202ms (Views: 202.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:18 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 12:05:18 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 12:05:18 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 12:05:18 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 12:05:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 12:05:18 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:18 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:18 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/lgLogo.png" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 12:05:19 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 12:07:25 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/home/ubuntu/workspace/git@github.com:Espur/medieSpesialisten_ub.git/app/views/pages/category.html.erb:10: syntax error, unexpected tLABEL, expecting ')'
+... image_tag("lgLogo.png") class: 'well' );@output_buffer.safe...
+...                               ^):
+  actionview (4.1.0) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.0) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.0) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.0) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 12:09:20 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 205ms (Views: 204.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/lgLogo.png" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 12:09:21 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 173ms (Views: 173.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/lgLogo.png" for 213.184.195.124 at 2016-10-25 12:09:41 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 12:09:42 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 12:09:42 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 12:16:03 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 127ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 12:16:04 +0000
+
+
+Started GET "/category" for 213.184.195.124 at 2016-10-25 12:17:54 +0000
+Processing by PagesController#category as HTML
+  Rendered pages/category.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 126ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 12:17:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:54 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 12:17:54 +0000
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 12:17:54 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 12:17:54 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 12:17:55 +0000
+
+
+Started GET "/products" for 213.184.195.124 at 2016-10-25 12:18:56 +0000
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 147ms (Views: 147.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 213.184.195.124 at 2016-10-25 12:18:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:56 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/users.css?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/users.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 213.184.195.124 at 2016-10-25 12:18:57 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 213.184.195.124 at 2016-10-25 12:18:57 +0000

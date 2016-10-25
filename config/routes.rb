@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   end
   resources :products
   resources :contacts
+  get '/category' => 'pages#category'
   get '/about' => 'pages#about'
   root 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
