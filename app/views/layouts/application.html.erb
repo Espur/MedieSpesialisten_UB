@@ -29,18 +29,19 @@
         <li><%= link_to "Om Oss", about_path %></li>
         <li><%= link_to "Kontakt Oss", new_contact_path %></li>
         <li><%= link_to "Produkter", products_path %></li>
+        <li><%= link_to "Tjenester", tjenester_path %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>
 </nav>
   
-<!--<div class="container"> -->
+<div class="container">
   <% flash.each do |key, value| %>
     <%= content_tag :div, value, class: "alert alert-#{key}" %>
   <% end %>
-  
+</div>
+
   <%= yield %>
-<!-- </div> -->
-  
+
 </body>
 </html>
