@@ -23,14 +23,7 @@ p {
 }
 
 .bedrifts-bilde-stort {
+    float: center;
     height: 400px;
     width: 300px;
-    z-index: -3;
-    float: center;
-    position: relative;
-}
-
-.large-title {
-    font-size: 100px;
-    
 }
