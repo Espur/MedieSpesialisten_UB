@@ -47,3 +47,24 @@ body {
     background: linear-gradient(to left, #16222A , #3A6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
 }
+
+.content-row {
+    margin-bottom: 0px;
+    z-index: -3;
+}
+
+.bers-row2 {
+    z-index: 2;
+    height: 200px;
+    margin-bottom: 50px;
+    background-color: #F9F8F3;
+    
+}
+
+.content-row {
+    z-index: -2;
+}
+
+.small-title {
+    
+}
