@@ -4,7 +4,7 @@
 
 <div class="row">
     <div class="col-md-4 col-md-offset-4">
-        <p class="text-center">Har du noen spørsmål eller trenger du en medietjeneste fullørt? Fyll inn dine spørsmål i feltet under og du vil få svar veldig snart!.</p>
+        <p class="text-center">Har du noen spørsmål angående våre tjenester og produkter? Fyll inn dine spørsmål i feltet under og du vil få svar veldig snart! Ikke glem å skriv inn epost adressen din riktig, slik at vi kan nå deg tilbake.</p>
         <div class="well">
             <%= form_for @contact do |f| %>
                 <div class="form-group">
@@ -22,9 +22,20 @@
                     <%= f.text_field :comments, class: 'form-control' %>
                 </div>
                 
-                <%= f.submit 'Submit', class: 'btn btn-default' %>
+                <%= f.submit 'Send inn', class: 'btn btn-primary' %>
                 
             <% end %>
         </div>
     </div>
+</div>
+<hr class="container">
+<div class="row">
+
+        <div class="col-md-3">
+            <%= link_to image_tag("EspPNG.png", class: 'vertical-img-2') %>
+        </div>
+        <div class="col-md-5">
+            <h4 class="about-h1">Du kan også nå oss på</br>Sosiale Medier</h4>
+        </div>
+
 </div>
