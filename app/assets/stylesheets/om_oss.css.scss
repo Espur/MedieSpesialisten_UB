@@ -1,0 +1,25 @@
+// All CSS related to the about page goes here
+
+.about-pics {
+    border-radius: 60px;
+    -webkit-box-shadow: 3px 5px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 5px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 5px 4px 0px rgba(0,0,0,0.75);
+    
+    
+}
+
+.vertical-img {
+    height: 700px;
+    width: 210px;
+    float: right;
+}
+
+.group-pic {
+    width: 100%;
+    height: 600px;
+}
+
+.about-h1 {
+    font-size: 70px;
+}
