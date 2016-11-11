@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :users do
     resource :profile
   end
-  get 'tjenester' => 'pages#tjenester'
+  resources :services
   resources :products
   resources :contacts
   get '/category' => 'pages#category'

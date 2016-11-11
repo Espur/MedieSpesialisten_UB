@@ -5,6 +5,4 @@ class PagesController < ApplicationController
   def category
   end
   
-  def tjenester
-  end
 end
