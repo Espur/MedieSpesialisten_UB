@@ -1,11 +1,13 @@
-class ServicesController< ApplicationController
+class ServicesController < ApplicationController
     
     def index
         @services = Service.all
+        @website_service = Service.find(1)
     end
     
     def show
-        @services = Service.find( params[:id] )
+        
+        @website_service = Service.find(1)
     end
 end
 
