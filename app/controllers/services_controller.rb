@@ -6,8 +6,8 @@ class ServicesController < ApplicationController
     end
     
     def show
-        
         @website_service = Service.find(1)
+        
     end
 end
 
