@@ -15,7 +15,7 @@
             <div class="col-md-6">
                 <h2>Webside</h2>
                 <p>Bestill en enkel webside, web-applikasjon eller e-commerence shop (nettbutikk). Prisene varierer ut i fra hvilket web prosjekt du vil realisere. Vi lager simple web design, applikasjoner med registrering og transaksjons, og nettbutikker.</p>
-                <%= link_to "Bestill web tjeneste!", services_path, class: 'btn btn-success btn-lg btn-block btn-homepage' %>
+                <%= link_to "Bestill web tjeneste!", new_service_path(service: @web_service.id), class: 'btn btn-success btn-lg btn-block btn-homepage' %>
             </div>
         </div>
     </div>
@@ -32,7 +32,7 @@
             <div class="col-md-6">
                 <h2>Logo og Grafisk</h2>
                 <p>Vi tilbyr også utvikling og produksjon av logo design samt mye annet innenfor grafiske oppdrag. Vi utvikler alt fra plakater til reklame, visitkort, bannere og mye mer innenfor visuell profilering. Kort forklart: Alt av hvordan din bedrift skal synes til dine kunder.</p>
-                <%= link_to "Bestill grafisk tjeneste!", services_path, class: 'btn btn-primary btn-lg btn-block btn-homepage' %>
+                <%= link_to "Bestill grafisk tjeneste!", new_service_path(service: @grafisk_service.id), class: 'btn btn-primary btn-lg btn-block btn-homepage' %>
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@
             <div class="col-md-6">
                 <h2>Fotografering</h2>
                 <p>Trenger du fotografier til din virksomhet? Kanskje privat? Medie Spesialisten UB tilbyr også fototjenester. Vær oppmerksom på at fototjenester bare kan fullføres i Ålesund og omegn, da dette er hvor vi holder til. Vi kan også fotografere ønskede bilder som kan printes for våre mobildeksel</p>
-                <%= link_to "Bestill foto tjeneste!", services_path, class: 'btn btn-danger btn-lg btn-block btn-homepage' %>
+                <%= link_to "Bestill foto tjeneste!",new_service_path(service: @foto_service.id), class: 'btn btn-danger btn-lg btn-block btn-homepage' %>
             </div>
         </div>
     </div>
