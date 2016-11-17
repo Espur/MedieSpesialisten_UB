@@ -1,5 +1,59 @@
+<div class="jumbotron jumbosmall">
+    <h1 class="text-center">Bestille Medietjeneste</h1>
+</div>
 <% if params[:service] == '1' %>
-    Web Service
+    <div class="row">
+        <div class="container text-center col-md-4 col-md-offset-4">
+            <h2>Bestill en web løsning</h2>
+            <p>Her kan du bestille en av våre web tjenester. Vennligst velg i skjemaet nedenfor hvilken web løsning du ønsker. Bestillingen vil bli sendt til oss på mail, og vi vil kontakte deg fortløpende.</p>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <div class="well">
+            <%= form_for Contact.new do |f| %>
+                <div class="form-group">
+                    <%= f.label :name %>
+                    <%= f.text_field :name, class: 'form-control' %>
+                </div>
+                
+                <div class="form-group">
+                    <%= f.label :email %>
+                    <%= f.email_field :email, class: 'form-control' %>
+                </div>
+                
+                <div class="form-group">
+                    <%= f.label :comments %>
+                    <%= f.text_field :comments, class: 'form-control' %>
+                </div>
+                
+                <%= f.submit 'Send inn', class: 'btn btn-primary' %>
+                
+            <% end %>
+        </div>
+    </div>
+</div>
+
+    <div class="row">
+        <div class="container-fluid bers-row">
+            <div class="col-md-4 text-center">
+                <i class="fa fa-file-code-o service-icons" aria-hidden="true"></i>
+                <h3>Enkel Webside</h3>
+                <p>Trenger du en enkel nettside/webdesign som for eksempel et blogg design, informasjonsside eller kontakt tjeneste? Da er denne løsningen den beste for deg. Vi tilbyr fine designs etter ditt behov. NB: Du må kunne enkel HTML og CSS for å publisere nye oppdateringer og endringer på en slik side.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fa fa-folder service-icons" aria-hidden="true"></i>
+                <h3>Web Applikasjon</h3>
+                <p>Har du behov for en webplattform med "Logg Inn", "Registrer", bruker profiler, transaksjonsmuligheter for bankkort og autogenererte e-mails? Da er dette løsningen du ser etter! Med en slik we side, eller applikasjon som det kalles, kan du utføre alt dette. Mulighetene åpner seg. Dine kunder kan registrere seg på nettstedet ditt, poste innlegg og kommentere slik som i et sosialt nettverk. Om ønskelig setter vi også opp betalingsskjema slik at kunder kan betale for å være medlem av ditt nettsted.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fa fa-shopping-cart service-icons" aria-hidden="true"></i>
+                <h3>E-Commerence Shop (Nettbutikk)</h3>
+                <p>E-commerence shop er kanskje bedre kjent som en nettbutikk. Velger du denne løsningen fra oss, utvikler vi et en hel nettbutikk for deg til den god pris! Vi kategoriserer dine produkter og gjør det mulig for salg gjennom nettleseren. Denne tjenesten inneholder også alle funksjoner til en web applikasjon. På den måten kan brukere logge inn og laste ned alle produkter de har kjøpt fra ditt nettsted. Fortell oss om dine behov, slik at vi kan visualisere de for deg!</p>
+            </div>
+        </div>
+    </div>
 <% elsif params[:service] == '2' %>
     Grafisk Service
 <% else params[:service] == '3' %>
