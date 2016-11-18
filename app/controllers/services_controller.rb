@@ -9,4 +9,7 @@ class ServicesController< ApplicationController
     def show
         
     end
+    
+    def create
+    end
 end
