@@ -4,7 +4,16 @@
     </head>
     
     <body>
-        <p>You have recieved a message from the site's contact form, from <%= "#{ @name }, #{ @email }, #{ @phone }, #{ @postal_code }, #{ @postal_place }, #{ @address }, #{ @comments }." %></p>
-        <p><% @body %></p>
+        <p>Vi har mottatt en ny bestilling / melding fra en kunde! Dette betyr cash i lomma og rikdom til sommern. Husk å behandle henvendelser tidlig! </p>
+        <p class="email-p"><strong>Kunde:</strong> <%= "#{ @name } " %></p>
+        <p class="email-p"><strong>Email:</strong> <%= "#{ @email } " %></p>
+        <p class="email-p"><strong>Mobilnummer:</strong> <%= "#{ @phone } " %></p>
+        <p class="email-p"><strong>Adresse:</strong> <%= "#{ @address } " %></p>
+        <p class="email-p"><strong>Postnummer:</strong> <%= "#{ @postal_code } " %></p>
+        <p class="email-p"><strong>Poststed:</strong> <%= "#{ @postal_place } " %></p>
+        
+        <hr>
+        <p class="email-p">Kommentar / bestilling:</p>
+        <p class="email-p"><% @comments %></p>
     </body>
 </html>
