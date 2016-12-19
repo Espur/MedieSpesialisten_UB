@@ -9,17 +9,37 @@
             <%= form_for @contact do |f| %>
                 <div class="form-group">
                     <%= f.label :name %>
-                    <%= f.text_field :name, class: 'form-control' %>
+                    <%= f.text_field :name, placeholder: "Fullt navn påkrevd", class: 'form-control' %>
                 </div>
                 
                 <div class="form-group">
                     <%= f.label :email %>
-                    <%= f.email_field :email, class: 'form-control' %>
+                    <%= f.email_field :email, placeholder: "Din e-post, som vi kan kontakte deg på", class: 'form-control' %>
                 </div>
                 
                 <div class="form-group">
                     <%= f.label :comments %>
-                    <%= f.text_field :comments, class: 'form-control' %>
+                    <%= f.text_area :comments, placeholder: "Ditt spørsmål eller bestilling", class: 'form-control' %>
+                </div>
+                
+                <div class="form-group">
+                    <%= f.label :phone %>
+                    <%= f.text_field :phone, placeholder: "Mobilnummer", class: 'form-control' %>
+                </div>
+                
+                <div class="form-group">
+                    <%= f.label :address %>
+                    <%= f.text_field :address, placeholder: "Din adresse", class: 'form-control' %>
+                </div>
+                
+                <div class="form-group">
+                    <%= f.label :postal_code %>
+                    <%= f.text_field :postal_code, placeholder: "Postnummer", class: 'form-control' %>
+                </div>
+                
+                <div class="form-group">
+                    <%= f.label :postal_place %>
+                    <%= f.text_field :postal_place, placeholder: "Poststed", class: 'form-control' %>
                 </div>
                 
                 <%= f.submit 'Send inn', class: 'btn btn-primary' %>
