@@ -52,53 +52,53 @@
     <hr>
     
     <div class="row">
-    <div class="col-md-4 col-md-offset-4">
-        <div class="well">
-            <%= form_for Contact.new do |f| %>
-                <div class="form-group">
-                    <%= f.label :name %>
-                    <%= f.text_field :name, placeholder: "Fullt navn påkrevd", class: 'form-control' %>
-                </div>
-                
-                <div class="form-group">
-                    <%= f.label :email %>
-                    <%= f.email_field :email, placeholder: "Din e-post, som vi kan kontakte deg på", class: 'form-control' %>
-                </div>
-                
-                <div class="form-group">
-                    <%= f.label :comments %>
-                    <%= f.text_area :comments, placeholder: "Ditt spørsmål eller bestilling", class: 'form-control' %>
-                </div>
-                
-                <div class="form-group">
-                    <%= f.label :phone %>
-                    <%= f.text_field :phone, placeholder: "Mobilnummer", class: 'form-control' %>
-                </div>
-                
-                <div class="form-group">
-                    <%= f.label :address %>
-                    <%= f.text_field :address, placeholder: "Din adresse", class: 'form-control' %>
-                </div>
-                
-                <div class="form-group">
-                    <%= f.label :postal_code %>
-                    <%= f.text_field :postal_code, placeholder: "Postnummer", class: 'form-control' %>
-                </div>
-                
-                <div class="form-group">
-                    <%= f.label :postal_place %>
-                    <%= f.text_field :postal_place, placeholder: "Poststed", class: 'form-control' %>
-                </div>
-                
-                <%= f.submit 'Send inn', class: 'btn btn-primary' %>
-                
-            <% end %>
+        <div class="col-md-4 col-md-offset-4">
+            <div class="well">
+                <%= form_for Contact.new do |f| %>
+                    <div class="form-group">
+                        <%= f.label :name %>
+                        <%= f.text_field :name, placeholder: "Fullt navn påkrevd", class: 'form-control' %>
+                    </div>
+                    
+                    <div class="form-group">
+                        <%= f.label :email %>
+                        <%= f.email_field :email, placeholder: "Din e-post, som vi kan kontakte deg på", class: 'form-control' %>
+                    </div>
+                    
+                    <div class="form-group">
+                        <%= f.label :comments %>
+                        <%= f.text_area :comments, placeholder: "Ditt spørsmål eller bestilling her", class: 'form-control' %>
+                    </div>
+                    
+                    <div class="form-group">
+                        <%= f.label :phone %>
+                        <%= f.text_field :phone, placeholder: "Mobilnummer", class: 'form-control' %>
+                    </div>
+                    
+                    <div class="form-group">
+                        <%= f.label :address %>
+                        <%= f.text_field :address, placeholder: "Din adresse", class: 'form-control' %>
+                    </div>
+                    
+                    <div class="form-group">
+                        <%= f.label :postal_code %>
+                        <%= f.text_field :postal_code, placeholder: "Postnummer", class: 'form-control' %>
+                    </div>
+                    
+                    <div class="form-group">
+                        <%= f.label :postal_place %>
+                        <%= f.text_field :postal_place, placeholder: "Poststed", class: 'form-control' %>
+                    </div>
+                    
+                    <%= f.submit 'Send inn', class: 'btn btn-primary' %>
+                    
+                <% end %>
+            </div>
         </div>
     </div>
-</div>
 <% elsif params[:service] == '2' %>
     <div class="row">
-        <div class="col-md-4 col-md-offset-4">
+        <div class="col-md-4 col-md-offset-4 text-center">
             <h2>Bestill Grafiske Løsninger</h2>
             <p>Her kan du bestille grafiske løsninger av oss. Vennligst føy til hvilken type grafisk profilering du ønsker at vi skal gjennomføre for deg. Vi kommer gjerne med forslag!</p>
         </div>
@@ -108,15 +108,37 @@
     
     <div class="row">
         <div class="container">
-            <div class="col-md-6 text-center ">
+            <div class="col-md-offset-1 col-md-4 text-center well">
                 <i class="fa fa-pencil service-icons" aria-hidden="true"></i>
                 <h2>Logodesign</h2>
+                <hr class="divider">
                 <p>- Utvikler og designer din bedrifts logo</p>
                 <p>- Tracer og forbedrer eksiterende logoer</p>
                 <p>- Designer etter dine behov</p>
+                </br></br></br></br></br></br></br>
+                <h3 class="price">Pris: Fra 189,- timen</h3>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-offset-1 col-md-4 text-center well">
+                <i class="fa fa-line-chart service-icons" aria-hidden="true"></i>
+                <h2>Visuell Profilering</h2>
+                <hr class="divider">
+                <p>- Grafisk Profil</p>
+                <p>- Logo Print</p>
+                <p>- Brosjyre</p>
+                <p>- Visitkort</p>
+                <p>- Bannere</p>
+                <p>- Reklame</p>
+                <p>- Bli sett med din bedrift!</p>
+                <h3 class="price">Pris: Fra 189,- timen</h3>
             </div>
         </div>
     </div>
+    
+    <hr class="container">
+    
+    <%= render '/services/form' %>
+    
 <% else params[:service] == '3' %>
     Foto Service
 <% end %>
