@@ -11,6 +11,6 @@ class ContactMailer < ActionMailer::Base
         @postal_code = postal_code
         @body = body
         
-        mail(from: name, email, subject: 'Bestilling / melding fra Mediespesialisten.no')
+        mail(from: email, subject: 'Bestilling / melding fra Mediespesialisten.no')
     end
 end
