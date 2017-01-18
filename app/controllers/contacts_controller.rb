@@ -13,7 +13,7 @@ class ContactsController < ApplicationController
       address = params[:contact][:address]
       postal_code = params[:contact][:postal_code]
       postal_place = params[:contact][:postal_place]
-      body = params[:contact][:comments]
+      body = params[:contact][:body]
       
       
       ContactMailer.contact_email(name, email, phone, address, postal_code, postal_place, body).deliver
@@ -28,6 +28,6 @@ class ContactsController < ApplicationController
   
   private
     def contact_params
-      params.require(:contact).permit(:name, :email, :phone, :address, :postal_code, :postal_place, :comments)
+      params.require(:contact).permit(:name, :email, :phone, :address, :postal_code, :postal_place, :body)
     end
 end

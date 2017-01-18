@@ -6,4 +6,5 @@ class Contact < ActiveRecord::Base
     validates :postal_code, presence: true
     validates :postal_place, presence: true
     validates :comments, presence: true
+    validates :body, presence: true
 end
