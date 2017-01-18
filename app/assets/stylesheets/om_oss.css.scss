@@ -5,22 +5,28 @@
     -webkit-box-shadow: 3px 5px 4px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 5px 4px 0px rgba(0,0,0,0.75);
     box-shadow: 3px 5px 4px 0px rgba(0,0,0,0.75);
-    
-    
+    margin: 0 -45px;
+
 }
 
 .vertical-img {
     height: 700px;
     width: 210px;
     float: right;
+    margin: 5px;
 }
 
-.about-h1 {
-    font-size: 65px;
-    margin-top: 200px;
+.about-title {
+    font-size: 40px;
     font-weight: bold;
+    height: auto;
+    width: 100%;
 }
 
 .btn-about-page {
     width: 40%;
+}
+
+.about-h1 {
+    margin-top: 200px;
 }
