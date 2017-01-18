@@ -3,11 +3,8 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-body {
-    
-// Gradient from http://uigradients.com/
-
-        
+* h1 {
+    font-family: Oswald, sans-seriff;
 }
 
 
@@ -69,9 +66,7 @@ body {
 
 .small-contact-icon {
     font-size: 6em;
-    display: inline;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .fa-facebook-square {
@@ -89,9 +84,8 @@ body {
 .small-contact-text {
     font-size: 30px;
     font-weight: bold;
-    margin-top: -70px;
-    text-align: center;
-    
+    margin-top: 20px;
+
 }
 
 hr {
@@ -110,10 +104,7 @@ hr {
 
 .footer-logo {
     height: 40px;
-    width: 40px;
-    display: inline;
-    margin-bottom: -60px;
-    border-radius: 60px;
+    border-radius: 50px;
 }
 
 .fa-code {
@@ -142,8 +133,10 @@ hr {
     text-align: center;
 }
 
-h1 {
+#tittel {
     font-weight: bold;
+    font-size: 6em;
+    font-family: Oswald, sans-seriff;
 }
 
 .fa-line-chart {
@@ -154,4 +147,9 @@ h1 {
 
 .img-responsive {
     width: 100%;
+}
+
+.ms-logo {
+    height: 300px;
+    margin-top: 20px;
 }
