@@ -1,18 +1,21 @@
-<div class="jumbotron products_bg">
-    
-</div>
-
 <div class="container">
     <div class="row">
-        <h1 class="text-center">Våre produkter</h1>
-        <p class="col-md-offset-4 col-md-4">Våre mobildeksel kan fåes nøytralt eller med eget print! Vi kontakter deg etter bestilling slik at du kan sende oss det trykket du selv vil ha. Du kan også velge å trykke et av våre photo nedenfor.</p>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            
+        <div class="col-xs-6">
+            <h1><%= link_to "My Store", root_path %></h1>
         </div>
-        <div class="col-md-6">
-            
+        <div class="col-xs-6 text-right">
+            <h1 class="cart-text"><%= render 'layouts/cart_text' %></h1>
         </div>
     </div>
+    <hr>
+</div>
+
+<h3 class="text-center">Products for Sale</h3>
+
+<div class="row">
+  <div class="col-xs-6 col-xs-offset-3">
+    <% @products.each do |product| %>
+      <%= render "product_row", product: product, order_item: @order_item %>
+    <% end %>
+  </div>
 </div>
